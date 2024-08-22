@@ -1,0 +1,40 @@
+.verticalAlign{
+  display: flex;
+  flex-direction: column;
+}
+.Buttons{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card {
+  border: 1px solid hsl(0, 0%, 60%);
+  background-color: hsl(50, 33%, 4%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 50px;
+  margin: 20px 200px;
+  text-align: left;
+  max-width: 25opx;
+  display: inline-block;
+}
+.card .card-image{
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 33%, 99%);
+}
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+.card .card-about{
+  font-family: sans-serif;
+  text-align: right;
+  color: hsl(0, 0%, 100%);
+}
