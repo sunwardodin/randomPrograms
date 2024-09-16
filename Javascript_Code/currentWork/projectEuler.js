@@ -26,7 +26,7 @@ function fiboEvenSum(n) {
   }
   return sum;
 }
-fiboEvenSum(10)
+console.log(fiboEvenSum(10))
 
 //---------------
 
